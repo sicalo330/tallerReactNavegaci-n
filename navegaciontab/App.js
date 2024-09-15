@@ -7,6 +7,10 @@ import HomeScreen from './screens/HomeScreen';
 import SettingsScreen from './screens/SettingsScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
+import ImageScreen from './screens/ImageScreen';
+import OptionsScreen from './screens/OptionScreen';
+import QuizScreen from './screens/QuizScreen';
+
 // Creamos el BottomTabNavigator
 const Tab = createBottomTabNavigator();
 
@@ -17,9 +21,9 @@ export default function App() {
       {/* El BottomTabNavigator renderiza las pestañas en la parte inferior */}
       <Tab.Navigator>
         {/* Cada Tab.Screen representa una pestaña */}
-        <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
-        <Tab.Screen name="Profile" component={ProfileScreen} />
+        <Tab.Screen name="Image" component={ImageScreen} />
+        <Tab.Screen name="Option" component={OptionsScreen} />
+        <Tab.Screen name="Quiz" component={QuizScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
