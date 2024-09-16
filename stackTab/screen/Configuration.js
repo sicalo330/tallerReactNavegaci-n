@@ -21,7 +21,7 @@ function Configuration() {
       <TouchableOpacity onPress={() => navigation.replace('TermsStack',{message:security})}>
         <Text style={styles.optionItem}>Seguridad</Text>
       </TouchableOpacity>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.replace('ThemeStack',{message:security})}>
         <Text style={styles.optionItem}>Cambiar tema</Text>{/*El plan es poner muchos temas*/}
       </TouchableOpacity>
     </View>

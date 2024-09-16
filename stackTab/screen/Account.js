@@ -73,7 +73,7 @@ export default function Account() {
             {row.map((item, index) => (
               <TouchableOpacity 
                 key={index} 
-                onPress={() => handlePress(item)} // Navegación al hacer clic
+                onPress={() => handlePress(item)}
               >
                 <Image source={{ uri: item.image }} style={styles.image} />
               </TouchableOpacity>

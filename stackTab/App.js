@@ -10,6 +10,7 @@ import Account from './screen/Account';
 import Configuration from './screen/Configuration';
 import Pictures from './screen/Pictures';
 import Terms from './screen/terms';
+import Theme from './screen/Theme';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -29,6 +30,7 @@ function ConfigurationStack(){
     <Stack.Navigator>
       <Stack.Screen name="ConfigurationStack" component={Configuration} />
       <Stack.Screen name="TermsStack" component={Terms} />
+      <Stack.Screen name="ThemeStack" component={Theme} />
     </Stack.Navigator>
   );
 }
