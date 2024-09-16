@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     containerPicture: {
       flex: 1,
       padding: 0, // Reducir cualquier padding en el contenedor de las imágenes
-      marginTop: -600, // Asegúrate de no tener márgenes superiores entre las secciones
+      marginTop: -550, // Asegúrate de no tener márgenes superiores entre las secciones
     },
     imageContainerPicture: {
       aspectRatio: 1,
